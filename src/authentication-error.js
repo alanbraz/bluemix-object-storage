@@ -1,7 +1,6 @@
-class AuthenticationError extends Error{
-  constructor(message, fileName, lineNumber){
-    super(message, fileName, lineNumber);
-  }
+import ExtendableError from 'es6-error';
+
+class AuthenticationError extends ExtendableError{
 }
 
 module.exports = AuthenticationError;
