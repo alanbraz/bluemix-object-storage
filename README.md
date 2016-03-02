@@ -1,17 +1,21 @@
 # bluemix-object-storage
 
-> Manages the accounts, containers, and objects for the IBM Bluemix Object Storage service.
+
+## Badges
+[![npm version](https://badge.fury.io/js/bluemix-object-storage.svg)](https://badge.fury.io/js/bluemix-object-storage)
+
+
+## Description
+Manages the accounts, containers, and objects for the IBM Bluemix Object Storage service.
 
 
 ## Install
-
-```
+```sh
 $ npm install bluemix-object-storage --save
 ```
 
 
 ## Usage
-
 ```js
 var ObjectStorage = require('bluemix-object-storage');
 var os = new ObjectStorage('user_id', 'password', 'project_id');
@@ -27,7 +31,6 @@ os.list('container_name').then(function(files){
 
 
 ## API
-
 #### create
 #### list
 #### unlock
@@ -35,5 +38,4 @@ os.list('container_name').then(function(files){
 
 
 ## License
-
 MIT © [Chyld Medford](https://github.com/chyld)
