@@ -7,6 +7,7 @@
 [![npm](https://badge.fury.io/js/bluemix-object-storage.svg)](https://www.npmjs.com/package/bluemix-object-storage)
 [![GitHub](https://img.shields.io/badge/github-code-blue.svg)](https://github.com/chyld/bluemix-object-storage)
 [![OpenStack](https://img.shields.io/badge/openstack-docs-orange.svg)](http://developer.openstack.org/api-ref-objectstorage-v1.html)
+[![Bluemix](https://img.shields.io/badge/bluemix-docs-orange.svg)](https://console.ng.bluemix.net/docs/services/ObjectStorage/index.html)
 
 
 ## Description
