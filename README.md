@@ -1,4 +1,7 @@
 # bluemix-object-storage
+
+![Bluemix Object Storage](https://raw.githubusercontent.com/chyld/bluemix-object-storage/master/images/os.png)
+
 [![NPM](https://nodei.co/npm/bluemix-object-storage.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/bluemix-object-storage/)
 
 [![Build Status](https://travis-ci.org/chyld/bluemix-object-storage.svg?branch=master)](https://travis-ci.org/chyld/bluemix-object-storage)
