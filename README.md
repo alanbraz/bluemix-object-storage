@@ -1,8 +1,6 @@
 # bluemix-object-storage
-
-
-## Badges
 [![npm version](https://badge.fury.io/js/bluemix-object-storage.svg)](https://badge.fury.io/js/bluemix-object-storage)
+[![GitHub version](https://badge.fury.io/gh/chyld%2Fbluemix-object-storage.svg)](https://badge.fury.io/gh/chyld%2Fbluemix-object-storage)
 
 
 ## Description
