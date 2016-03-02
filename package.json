@@ -1,7 +1,7 @@
 {
   "name": "bluemix-object-storage",
   "version": "1.0.1",
-  "description": "IBM Bluemix Object Storage Wrapper",
+  "description": "Manages the accounts, containers, and objects for the IBM Bluemix Object Storage service.",
   "main": "lib/index.js",
   "scripts": {
     "compile": "babel -d lib/ src/",
@@ -16,14 +16,15 @@
     "bluemix",
     "object",
     "storage",
-    "openstack"
+    "openstack",
+    "object storage"
   ],
   "author": "Chyld Medford <chyld.medford@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/chyld/bluemix-object-storage/issues"
   },
-  "homepage": "https://github.com/chyld/bluemix-object-storage#readme",
+  "homepage": "https://github.com/chyld/bluemix-object-storage",
   "dependencies": {
     "bluebird": "^3.3.3",
     "es6-error": "^2.0.2",
