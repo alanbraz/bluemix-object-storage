@@ -8,7 +8,7 @@
 
 
 ## Description
-Manages the accounts, containers, and objects for the IBM Bluemix Object Storage service.
+Easily manage the accounts, containers, and objects for the IBM Bluemix Object Storage service.
 
 
 ## Install
