@@ -16,6 +16,15 @@ $ npm install bluemix-object-storage --save
 ```
 
 
+## Test
+```sh
+$ git clone https://github.com/chyld/bluemix-object-storage
+$ cd bluemix-object-storage
+$ npm install
+$ npm test
+```
+
+
 ## Usage
 ```js
 var ObjectStorage = require('bluemix-object-storage');
