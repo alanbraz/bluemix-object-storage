@@ -1,7 +1,7 @@
 {
   "name": "bluemix-object-storage",
-  "version": "1.0.5",
-  "description": "Manages the accounts, containers, and objects for the IBM Bluemix Object Storage service.",
+  "version": "1.0.6",
+  "description": "Easily manages the accounts, containers, and objects for the IBM Bluemix Object Storage service.",
   "main": "lib/index.js",
   "scripts": {
     "compile": "babel -d lib/ src/",
