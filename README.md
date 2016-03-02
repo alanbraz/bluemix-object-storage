@@ -1,6 +1,6 @@
 # bluemix-object-storage
 
-> Easily connect, read and write to IBM Bluemix Object Storage service.
+> Manages the accounts, containers, and objects for the IBM Bluemix Object Storage service.
 
 
 ## Install
@@ -28,10 +28,10 @@ os.list('container_name').then(function(files){
 
 ## API
 
-### create
-### list
-### unlock
-### upload
+#### create
+#### list
+#### unlock
+#### upload
 
 
 ## License
