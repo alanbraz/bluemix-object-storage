@@ -23,20 +23,21 @@ $ npm install bluemix-object-storage --save
 ## Usage
 ```js
 var ObjectStorage = require('bluemix-object-storage');
-var os = new ObjectStorage('user_id', 'password', 'project_id', 'access_point_url');
+var os = new ObjectStorage('user_id', 'password', 'project_id', 'container_name', 'access_point_url');
 
-os.create('container_name')
+os.createContainer()
 .then(function(){
-  return os.unlock('container_name');
+  return os.setContainerPublicReadable();
 })
 .then(function(){
-  return os.upload('container_name', 'filename.jpg', 'image/jpeg', file_buffer, files_size);
+  return os.uploadFileToContainer('fido.jpg', 'image/jpeg', buffer, 49057);
 })
-.then(function(){
-  return os.list('container_name');
+.then(function(file){
+  console.log('url to uploaded file:', file);
+  return os.listContainerFiles();
 })
 .then(function(files){
-  console.log(files);
+  console.log('list of files in container:', files);
 });
 ```
 
@@ -47,10 +48,11 @@ os.create('container_name')
 
 
 ## API
-#### create
-#### list
-#### unlock
-#### upload
+#### Constructor(userId, password, projectId, containerName, accessPointUrl)
+#### createContainer()
+#### listContainerFiles()
+#### setContainerPublicReadable()
+#### uploadFileToContainer(filename, mimetype, buffer, filesize)
 
 
 ## Test
