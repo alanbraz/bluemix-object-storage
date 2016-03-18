@@ -48,11 +48,11 @@ os.createContainer()
 
 
 ## API
-#### Constructor(userId, password, projectId, containerName, accessPointUrl)
-#### createContainer()
-#### listContainerFiles()
-#### setContainerPublicReadable()
-#### uploadFileToContainer(filename, mimetype, buffer, filesize)
+##### Constructor(userId, password, projectId, containerName, accessPointUrl)
+##### createContainer()
+##### listContainerFiles()
+##### setContainerPublicReadable()
+##### uploadFileToContainer(filename, mimetype, buffer, filesize)
 
 
 ## Test
