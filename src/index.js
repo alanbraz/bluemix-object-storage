@@ -21,7 +21,9 @@ class ObjectStorage {
     const url = this.url;
     const method = 'get';
     const headers = {'x-auth-token': this.token};
-    return Request({url, method, headers, json: true}, this).then(({response, body}) => body.map(file => `${this.url}/${file.name}`));
+    return Request({url, method, headers, json: true}, this).then(({response, body}) => {
+      return typeof body === 'string' ? [] : body.map(file => `${this.url}/${file.name}`);
+    });
   }
   setContainerPublicReadable(){
     const url = this.url;
